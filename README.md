@@ -5,12 +5,23 @@ I would like to thank them for providing the data used in this project.https://w
 
 The data pipeline consists of the following components:
 
->>Data Extraction: I extracted data from Redfin and prepared it for further processing. The raw data was stored in an S3 bucket on AWS.
->>Data Transformation: I transformed the raw data into a more structured format using Apache Airflow. I created an EC2 instance on AWS, installed necessary dependencies, and then installed Airflow. I used Airflow to orchestrate the data transformation process.
-Data Loading: I loaded the transformed data into Snowflake, a cloud-based data warehousing platform. I created a Snowpipe to automatically load the data into Snowflake whenever new data is available in the S3 bucket.
+Data Extraction: I extracted data from Redfin and prepared it for further processing. The raw data was stored in an S3 bucket on AWS.
+
+Data Transformation: I transformed the raw data into a more structured format using Apache Airflow.
+I created an EC2 instance on AWS, installed necessary dependencies, and then installed Airflow.
+I used Airflow to orchestrate the data transformation process.
+
+Data Loading: I loaded the transformed data into Snowflake, a cloud-based data warehousing platform.
+I created a Snowpipe to automatically load the data into Snowflake whenever new data is available in the S3 bucket.
+
 Data Visualization: I connected Snowflake to Power BI, a business analytics tool, to visualize the data.
+
 Overall, this project demonstrates how to build a robust and scalable data pipeline using AWS services and other tools. The data pipeline can be easily modified to handle different data sources and destinations.
 
+
+
+
+![Screenshot 2024-04-01 at 4 44 00 PM](https://github.com/darsh996/Redfin_Project-AWS-Airflow-Snowflake-PowerBI/assets/97582053/d4589397-b7ea-4219-a8dc-43721fd391fa)
 
 ![homesoldbyyear](https://github.com/darsh996/Redfin_Project-AWS-Airflow-Snowflake-PowerBI/assets/97582053/14dacffa-b48f-4993-8a9e-ad5fe69c5c4a)
 
