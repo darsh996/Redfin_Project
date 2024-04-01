@@ -20,8 +20,9 @@ Overall, this project demonstrates how to build a robust and scalable data pipel
 
 
 
+![Screenshot 2024-04-01 at 4 44 00 PM](https://github.com/darsh996/Redfin_Project-AWS-Airflow-Snowflake-PowerBI/assets/97582053/93776e13-f073-462a-97a7-9a636080ca88)
 
-![Screenshot 2024-04-01 at 4 44 00 PM](https://github.com/darsh996/Redfin_Project-AWS-Airflow-Snowflake-PowerBI/assets/97582053/d4589397-b7ea-4219-a8dc-43721fd391fa)
+
 
 ![homesoldbyyear](https://github.com/darsh996/Redfin_Project-AWS-Airflow-Snowflake-PowerBI/assets/97582053/14dacffa-b48f-4993-8a9e-ad5fe69c5c4a)
 
