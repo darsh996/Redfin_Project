@@ -1,10 +1,12 @@
 # Redfin_Project
-In this project, I built a data pipeline using various AWS services and other tools to extract, transform, and load (ETL) data from Redfin. Redfin is a leading real estate brokerage company that provides a wide range of services to homebuyers and sellers. I would like to thank them for providing the data used in this project.https://www.redfin.com/news/data-center/
+In this project, I built a data pipeline using various AWS services and other tools to extract, transform, and load (ETL) data from Redfin.
+Redfin is a leading real estate brokerage company that provides a wide range of services to homebuyers and sellers. 
+I would like to thank them for providing the data used in this project.https://www.redfin.com/news/data-center/
 
 The data pipeline consists of the following components:
 
-Data Extraction: I extracted data from Redfin and prepared it for further processing. The raw data was stored in an S3 bucket on AWS.
-Data Transformation: I transformed the raw data into a more structured format using Apache Airflow. I created an EC2 instance on AWS, installed necessary dependencies, and then installed Airflow. I used Airflow to orchestrate the data transformation process.
+>>Data Extraction: I extracted data from Redfin and prepared it for further processing. The raw data was stored in an S3 bucket on AWS.
+>>Data Transformation: I transformed the raw data into a more structured format using Apache Airflow. I created an EC2 instance on AWS, installed necessary dependencies, and then installed Airflow. I used Airflow to orchestrate the data transformation process.
 Data Loading: I loaded the transformed data into Snowflake, a cloud-based data warehousing platform. I created a Snowpipe to automatically load the data into Snowflake whenever new data is available in the S3 bucket.
 Data Visualization: I connected Snowflake to Power BI, a business analytics tool, to visualize the data.
 Overall, this project demonstrates how to build a robust and scalable data pipeline using AWS services and other tools. The data pipeline can be easily modified to handle different data sources and destinations.
