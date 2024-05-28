@@ -19,6 +19,8 @@ Data Visualization: I connected Snowflake to Power BI, a business analytics tool
 Overall, this project demonstrates how to build a robust and scalable data pipeline using AWS services and other tools. The data pipeline can be easily modified to handle different data sources and destinations.
 
 
+![Screenshot 2024-05-28 at 12 08 04 PM](https://github.com/darsh996/Redfin_Project-AWS-Airflow-Snowflake-PowerBI/assets/97582053/586ea322-69c5-48c4-9502-c076669d545d)
+
 
 ![Screenshot 2024-04-01 at 4 44 00 PM](https://github.com/darsh996/Redfin_Project-AWS-Airflow-Snowflake-PowerBI/assets/97582053/93776e13-f073-462a-97a7-9a636080ca88)
 
